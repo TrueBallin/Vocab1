@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		40641C1923E2617A001F3227 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40641C1823E2617A001F3227 /* AppDelegate.swift */; };
 		40641C1B23E2617A001F3227 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40641C1A23E2617A001F3227 /* SceneDelegate.swift */; };
-		40641C1D23E2617A001F3227 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40641C1C23E2617A001F3227 /* ViewController.swift */; };
 		40641C2023E2617A001F3227 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40641C1E23E2617A001F3227 /* Main.storyboard */; };
 		40641C2223E2617E001F3227 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40641C2123E2617E001F3227 /* Assets.xcassets */; };
 		40641C2523E2617E001F3227 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40641C2323E2617E001F3227 /* LaunchScreen.storyboard */; };
 		40641C3023E2617E001F3227 /* Swift_VocabularyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40641C2F23E2617E001F3227 /* Swift_VocabularyUITests.swift */; };
+		40641C3D23E26207001F3227 /* WordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40641C3C23E26207001F3227 /* WordsViewController.swift */; };
+		40641C3F23E26232001F3227 /* DefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40641C3E23E26232001F3227 /* DefinitionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +31,6 @@
 		40641C1523E2617A001F3227 /* Swift Vocabulary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Vocabulary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40641C1823E2617A001F3227 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40641C1A23E2617A001F3227 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		40641C1C23E2617A001F3227 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		40641C1F23E2617A001F3227 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		40641C2123E2617E001F3227 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40641C2423E2617E001F3227 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +38,8 @@
 		40641C2B23E2617E001F3227 /* Swift VocabularyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift VocabularyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40641C2F23E2617E001F3227 /* Swift_VocabularyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_VocabularyUITests.swift; sourceTree = "<group>"; };
 		40641C3123E2617E001F3227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40641C3C23E26207001F3227 /* WordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsViewController.swift; sourceTree = "<group>"; };
+		40641C3E23E26232001F3227 /* DefinitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefinitionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +83,12 @@
 			children = (
 				40641C1823E2617A001F3227 /* AppDelegate.swift */,
 				40641C1A23E2617A001F3227 /* SceneDelegate.swift */,
-				40641C1C23E2617A001F3227 /* ViewController.swift */,
 				40641C1E23E2617A001F3227 /* Main.storyboard */,
 				40641C2123E2617E001F3227 /* Assets.xcassets */,
 				40641C2323E2617E001F3227 /* LaunchScreen.storyboard */,
 				40641C2623E2617E001F3227 /* Info.plist */,
+				40641C3C23E26207001F3227 /* WordsViewController.swift */,
+				40641C3E23E26232001F3227 /* DefinitionViewController.swift */,
 			);
 			path = "Swift Vocabulary";
 			sourceTree = "<group>";
@@ -199,9 +202,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40641C1D23E2617A001F3227 /* ViewController.swift in Sources */,
 				40641C1923E2617A001F3227 /* AppDelegate.swift in Sources */,
+				40641C3D23E26207001F3227 /* WordsViewController.swift in Sources */,
 				40641C1B23E2617A001F3227 /* SceneDelegate.swift in Sources */,
+				40641C3F23E26232001F3227 /* DefinitionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
